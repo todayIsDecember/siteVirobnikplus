@@ -1,21 +1,17 @@
 /*!************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/style.scss ***!
   \************************************************************************************************************/
-@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
 /*!****************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/style.scss (1) ***!
   \****************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap);
 /*!****************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/style.scss (2) ***!
   \****************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap);
-/*!****************************************************************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/style.scss (3) ***!
-  \****************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap);
 /*!****************************************************************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/style.scss (4) ***!
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/style.scss (3) ***!
   \****************************************************************************************************************/
 .container2 {
   max-width: 1020px;
@@ -502,16 +498,18 @@
   box-sizing: border-box; }
 
 a:hover {
-  background-color: inherit !important; }
+  background-color: inherit !important;
+  text-decoration: none; }
 
 html,
 body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth; }
-
-a {
-  text-decoration: none; }
+  html .toast,
+  body .toast {
+    border-radius: 3%;
+    background-color: rgba(0, 0, 0, 0.452); }
 
 .products__header__section .header__body, .main__page .header__section .header__body {
   background-color: #2c2c2c;
@@ -1063,6 +1061,10 @@ a {
         margin-top: 10px; }
         .main__page .footer__section .foot__bg .footer__flex .contacks .social img {
           margin-right: 30px; }
+
+.main__page .alert {
+  border-radius: 10%;
+  background-color: #8e0038; }
 
 @keyframes animate {
   0% {
