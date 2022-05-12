@@ -562,7 +562,7 @@ a {
         border-bottom: none; } }
     @media (max-width: 416px) {
       .main__page .header__section .header__body {
-        margin-top: 205px; } }
+        margin-top: 215px; } }
     @media (max-width: 990px) {
       .main__page .header__section .header__body .header__menu {
         position: fixed;
