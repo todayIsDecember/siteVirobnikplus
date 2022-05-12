@@ -556,13 +556,13 @@ a {
         align-items: center;
         margin: 0;
         padding: 0;
-        margin-top: 210px;
+        margin-top: 170px;
         background-color: inherit;
         box-shadow: none;
         border-bottom: none; } }
     @media (max-width: 416px) {
       .main__page .header__section .header__body {
-        margin-top: 165px; } }
+        margin-top: 205px; } }
     @media (max-width: 990px) {
       .main__page .header__section .header__body .header__menu {
         position: fixed;
