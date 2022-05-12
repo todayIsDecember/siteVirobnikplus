@@ -77,7 +77,7 @@
           flex-direction: column; } }
       .products__header__section .header__body .header__menu .header__list .header__link {
         color: #fff;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 450;
         max-width: 100%; }
         @media (max-width: 990px) {
@@ -596,7 +596,7 @@ a {
           flex-direction: column; } }
       .main__page .header__section .header__body .header__menu .header__list .header__link {
         color: #fff;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 450;
         max-width: 100%; }
         @media (max-width: 990px) {
