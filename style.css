@@ -440,7 +440,7 @@
                   --accent-color: hsl(var(--hue), 100%, 50%);
                   font-size: 1rem;
                   width: 100%;
-                  width: 6rem;
+                  width: 5rem;
                   aspect-ratio: 1;
                   position: relative;
                   border-radius: 50%;
@@ -456,7 +456,7 @@
                   cursor: pointer; }
                   @media (max-width: 435px) {
                     .pa__products .products .product .product__info .product__description .more__information .more__information__first__container .product__diagram .dig .circle-diagram {
-                      width: 4.5rem; } }
+                      width: 4rem; } }
                   .pa__products .products .product .product__info .product__description .more__information .more__information__first__container .product__diagram .dig .circle-diagram::before, .pa__products .products .product .product__info .product__description .more__information .more__information__first__container .product__diagram .dig .circle-diagram::after {
                     content: '';
                     position: absolute;
