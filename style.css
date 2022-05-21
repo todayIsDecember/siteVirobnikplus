@@ -454,6 +454,10 @@
                   color: #fff;
                   text-shadow: 0 0 5px black;
                   cursor: pointer; }
+                  @media (max-width: 600px) {
+                    .pa__products .products .product .product__info .product__description .more__information .more__information__first__container .product__diagram .dig .circle-diagram {
+                      min-width: 100px !important;
+                      min-height: 100px !important; } }
                   .pa__products .products .product .product__info .product__description .more__information .more__information__first__container .product__diagram .dig .circle-diagram::before, .pa__products .products .product .product__info .product__description .more__information .more__information__first__container .product__diagram .dig .circle-diagram::after {
                     content: '';
                     position: absolute;
