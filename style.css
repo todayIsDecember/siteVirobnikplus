@@ -73,7 +73,7 @@
           flex-direction: column; } }
       .products__header__section .header__body .header__menu .header__list .header__link {
         color: #fff;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 450;
         max-width: 100%; }
         .products__header__section .header__body .header__menu .header__list .header__link:hover {
