@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <title>History</title>
-<script defer src="polyfill.9f5fc97205dd8cd6403a.js"></script><script defer src="app.9f5fc97205dd8cd6403a.js"></script><link href="./style.css" rel="stylesheet"></head>
+  <title>Login</title>
+<script defer src="polyfill.d196cf1bfef734c1ccee.js"></script><script defer src="app.d196cf1bfef734c1ccee.js"></script><link href="./style.css" rel="stylesheet"></head>
 <body>
   <div class="preloader">
     <div class="preloader__row">
@@ -14,7 +14,7 @@
       <div class="preloader__item"></div>
     </div>
   </div>
-  <div class="products__header__section">
+  <div class="header">
     <div class="header__body">
       <nav class="header__menu">
         <ul class="header__list">
@@ -57,58 +57,74 @@
           </li>
         </ul>
       </nav>
-  </div>
-  </div>
-  <div class="pa__header">
-    <h1 key="history" class="lang">history of the company</h1>
-  </div>
-  <div class="pa__history">
-    <div class="container2 flex">
-        <h5 class="history__pa__header lang__history__page" key="history__pa__header1">
-          Production of confectionery products
-        </h5>
-        <p class="history__pa lang__history__page" key="history__pa1">
-          VYROBNYK PLYUS LTD is the one of the leaders in production of oatmeal, cornmeal cookies, bagels and rusks throughout Ukraine over the past 15 years. We make our products with zeal and soul, believing that even the best product can be made much better! We do what we love, and boldly share our success with the whole world.
-          <br>
-          Our company has a well-developed distribution network throughout Ukraine. The sales structure sells products under its own trademarks “SOYUZ KONDITER” and “TASMAN” in the amount of more than 400 tons per month.
-        </p>
-        <h5 class="history__pa__header lang__history__page" key="history__pa__header2">
-          Benefits
-        </h5>
-        <p class="history__pa lang__history__page" key="history__pa2">
-          The most important thing for us is concern for the welfare of our customers, the safety and quality of our confectionery products. Using only high-quality, environmentally friendly raw materials, we produce products of the highest quality.
-        </p>
-        <h5 class="history__pa__header lang__history__page" key="history__pa__header3">
-          Product quality
-        </h5>
-        <p class="history__pa lang__history__page" key="history__pa3">
-          High quality products are provided by new technologies and modern equipment, high-quality ingredients and quality control, which cover the entire production – from raw materials to the time of delivery of the product to the customer.
-          <br>
-          Confirmation of this is the certificate for the food safety management system in accordance with DSTU ISO 22000, which was received by the enterprise.
-          <br>
-          This system covers the food chain from production to consumption of the food product of the final consumer.
-        </p>
-        <h5 class="history__pa__header lang__history__page" key="history__pa__header4">
-          Export
-        </h5>
-        <p class="history__pa lang__history__page" key="history__pa4">
-          In addition to the Ukrainian market, our products are presented in markets on other countries of the world. The company is actively developing its export potential, mainly in the countries of the European Union, North America, and Central Asia. The products of our brands are represented in Germany, Greece, Romania, Bulgaria, Hungary, Lithuania, Latvia, Estonia, Georgia, Azerbaijan, Israel, Canada, etc.
-          <br>
-          VYROBNYK PLYUS LTD is carried out export shipments of more than 100 tons of confectionery products in the month.
-        </p>
-        <h5 class="history__pa__header lang__history__page" key="history__pa__header5">
-          Cooperation
-        </h5>
-        <p class="history__pa lang__history__page last" key="history__pa5">
-          In working with our customers, the company is always guided by the interests of our partners and is able to find compromises.
-          <br>
-          We are sure that in our person you will find a reliable and professional partner.
-          <br>
-          Regularity in the supply of products and a flexible system of discounts, flawless fulfillment of orders, individual work with customers will allows us to build a long-term relationships.
-        </p>
-        <a href="./index.html" class="btn btn__home lang__about__page" key="home">home</a>
+    </div>
+    <div class="login__page">
+      <div class="login__page__wrapper">
+        <div class="login__page__description">
+          <div class="content">
+            <h1 class="title">HELLO FRIEND!</h1>
+            <p class="article">We look forward to seeing you on our site. For more comfortable use, log in to your personal account or register. thank you</p>
+          </div>
+        </div>
+        <div class="login__page__form showForm">
+          <div class="form">
+            <h2 class="title">Please Login</h2>
+            <p class="article">or click <span class="change__form" key="here">here</span> for registration</p>
+            <div class="input-field">
+              <input id="email__log" type="email" class="validate btn__log">
+              <label for="email__log" class="label">Email</label>
+            </div>
+            <div class="input-field">
+              <input id="password__log" type="password" class="validate btn__log">
+              <label for="password__log" class="label">Password</label>
+            </div>
+            <div class="input-field">
+              <button
+                class="btn waves-effect waves-light btn__submit"
+                type="submit"
+                name="action"
+              >
+                Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </div>
+      <div class="login__page__form hideForm">
+          <div class="form">
+            <h2 class="title">Please register</h2>
+            <p class="article">or you already have account click <span class="change__form" key="here">here</span></p>
+            <div class="input-field">
+              <input id="first_name" type="text" class="validate btn__log">
+              <label class="label" for="first_name">First Name</label>
+            </div>
+            <div class="input-field">
+              <input id="last_name" type="text" class="validate btn__log">
+              <label class="label" for="last_name">Last Name</label>
+            </div>
+            <div class="input-field">
+              <input id="phone" type="tel" class="validate btn__log">
+              <label class="label" for="phone">Phone</label>
+            </div>
+            <div class="input-field">
+              <input id="email" type="email" class="validate btn__log">
+              <label class="label" for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <button
+            class="btn waves-effect waves-light btn__submit"
+            type="submit"
+            name="action"
+          >
+            Submit
+            <i class="material-icons right">send</i>
+             </button>
+            </div>
+          </div>
+      </div>
     </div>
   </div>
+</div>
   <footer class="footer__section">
     <div class="foot__bg">
       <div class="container1">
